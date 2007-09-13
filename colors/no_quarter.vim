@@ -1,7 +1,7 @@
 " Vim color file
 "  Maintainer: Otavio Fernandes
 " Last Change: 2007/09/10 Mon 13:55
-"     Version: 1.0.2
+"     Version: 1.0.3
 "
 " ts=4
 "
@@ -45,7 +45,7 @@ hi SpecialKey			gui=BOLD		guifg=green		guibg=NONE
 hi Title				gui=BOLD		guifg=#707070	guibg=NONE
 hi Visual				gui=NONE		guifg=#b0ffb0	guibg=#008000
 hi VisualNOS			gui=NONE		guifg=#ffe8c8	guibg=#c06800
-hi Comment				gui=NONE		guifg=#5a7bac	guibg=NONE
+hi Comment				gui=NONE		guifg=#647bcf   guibg=NONE
 hi Constant				gui=NONE		guifg=#b07050	guibg=NONE
 hi Error				gui=BOLD		guifg=#ffffff	guibg=#8000ff
 hi Identifier			gui=NONE		guifg=#90c0c0	guibg=NONE
@@ -110,7 +110,7 @@ hi perlVarSimpleMemberName	gui=NONE	guifg=grey70	guibg=bg
 " Omni Menu
 "
 
-hi Pmenu				guifg=grey80	guibg=grey20
-hi PmenuSel				guifg=#dcdccc	guifg=grey10
-hi PmenuSbar			guibg=#dcdccc
-hi PmenuThumb			guifg=#dcdccc
+hi Pmenu				guifg=grey10	guibg=grey50
+hi PmenuSel				guifg=#abac84	guibg=#404040
+hi PmenuSbar			guibg=grey20
+hi PmenuThumb			guifg=grey30
