@@ -1,7 +1,7 @@
 " Vim color file
 "  Maintainer: Otavio Fernandes
-" Last Change: 2007/09/10 Mon 13:55
-"     Version: 1.0.3
+" Last Change: 2008/08/10 Sun 20:35
+"     Version: 1.0.4
 "
 " ts=4
 "
@@ -17,7 +17,7 @@ let colors_name = "no_quarter"
 " Vim Colors (( Default Options ))
 "
 
-hi Normal				guifg=grey80	guibg=#343434
+hi Normal				guifg=grey80	                guibg=#343434
 hi IncSearch			gui=UNDERLINE	guifg=#80ffff	guibg=#0060c0
 hi Search				gui=NONE		guifg=bg		guibg=grey60
 hi ErrorMsg				gui=BOLD		guifg=#ffa0ff	guibg=NONE
@@ -34,6 +34,7 @@ hi DiffChange			gui=NONE		guifg=#e03870	guibg=#601830
 hi DiffDelete			gui=NONE		guifg=#a0d0ff	guibg=#0020a0
 hi DiffAdd				gui=NONE		guifg=#a0d0ff	guibg=#0020a0
 hi Cursor				gui=NONE		guifg=#424242	guibg=green
+hi CursorLine           gui=NONE                        guibg=gray17
 hi lCursor				gui=NONE		guifg=#ffffff	guibg=#8800ff
 hi CursorIM				gui=NONE		guifg=#ffffff	guibg=#8800ff
 hi Folded				gui=NONE		guifg=#40f0f0	guibg=#006090
@@ -57,6 +58,12 @@ hi Todo					gui=BOLD		guifg=#ff80d0	guibg=NONE
 hi Type					gui=NONE		guifg=#60f0a8	guibg=NONE
 hi Underlined			gui=UNDERLINE	guifg=#707070	guibg=NONE
 hi htmlTagName			gui=NONE 		guifg=grey70 	guibg=bg
+
+"
+" Tag List
+"
+
+hi MyTagListFileName      gui=underline   guifg=fg        guibg=grey25
 
 "
 " Perl
